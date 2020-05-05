@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "C:\\Users\\jblac\\.virtualenvs\\lambdata-b6MYa1OE\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\jblac\\.virtualenvs\\lambdata-b6MYa1OE\\Scripts\\python.exe",
+    "python.dataScience.themeMatplotlibPlots": true,
+    "[git-commit]": {"editor.rulers": [50]},
+    "[python]": {
+        "editor.rulers": [72, 79]
+    }
+    
+    
 }
