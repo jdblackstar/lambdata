@@ -7,7 +7,7 @@ def tvt_split(df):
     train, test = train_test_split(df, test_size=0.1)
     train, val = train_test_split(train, test_size=0.1)
 
-    return train, val, test
+    print(train, val, test)
 
 def only_nulls(df):
     # don't need these right?
@@ -16,7 +16,7 @@ def only_nulls(df):
 
     dfx = df[df.isnull().any(axis=1)]
 
-    return dfx
+    print(dfx)
 
 if __name__ == "__main__":
     print("Don't run this file.")
