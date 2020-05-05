@@ -1,7 +1,5 @@
 import pandas
-# from my_lambdata.my_mod import FUNCNAMES
+from my_lambdata.my_mod import tvt_split, only_nulls
 
-print("Hello world")
 
-print(2+2)
 

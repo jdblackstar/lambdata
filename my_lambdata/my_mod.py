@@ -1,4 +1,5 @@
 def tvt_split(df):
+    # don't need these, right?
     import pandas as pd 
     import numpy as np 
     from sklearn.model_selection import train_test_split
@@ -9,6 +10,7 @@ def tvt_split(df):
     return train, val, test
 
 def only_nulls(df):
+    # don't need these right?
     import pandas as pd 
     import numpy as np 
     
