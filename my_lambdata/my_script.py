@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
-from my_mod import tvt_split, only_nulls
-# i'm not sure why 'from' is kicking an error, it's importing successfully
+from .my_mod import tvt_split, only_nulls
 
 # these were tests
 # print("HELLO WORLD")
