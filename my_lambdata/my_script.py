@@ -1,5 +1,5 @@
 import pandas
-# from my_lambdata.my_mod import FUNCNAME
+# from my_lambdata.my_mod import FUNCNAMES
 
 print("Hello world")
 
