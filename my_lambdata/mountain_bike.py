@@ -23,7 +23,7 @@ class MountainBike():
     def wheelie(self):
         if self.wheel = 27:
             print(f'Bikes with {self.wheel} in wheels were made for wheelies!')
-        else if self.wheel = 29:
+        elif self.wheel = 29:
             print(f"If you can wheelie on a {self.wheel}er, you're a God")
         else:
             return
@@ -32,9 +32,9 @@ class MountainBike():
     def jump(self):
         if self.suspension = "full":
             print(f'Jumps are easy for a bike with {self.suspension} suspension!')
-        else if self.suspension = 'soft':
+        elif self.suspension = 'soft':
             print(f'This could hurt a little bit...')
-        else if self.suspension = 'hard':
+        elif self.suspension = 'hard':
             print(f"Don't even try it, brother.")
         else:
             return
